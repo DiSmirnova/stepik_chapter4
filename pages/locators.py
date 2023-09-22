@@ -10,3 +10,8 @@ class LoginPageLocators():
 
 class ProductPageLocators():
     BASKET_BUTTON = (By.CLASS_NAME, 'btn.btn-lg.btn-primary.btn-add-to-basket')
+
+    SUCCESS_MESSAGE = (By.CLASS_NAME, 'alertinner')
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
